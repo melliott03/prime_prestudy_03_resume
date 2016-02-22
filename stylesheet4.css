@@ -1,0 +1,110 @@
+
+
+@font-face {
+  font-family: 'ArchivoNarrow-Regular';
+  src: url('archivo-narrow/ArchivoNarrow-Regular.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+	font: 16px Helvetica, Sans-Serif;
+	background-image: url(agsquare.png);
+  width: 600px center: auto;
+}
+
+.resume {
+  display: none;
+  width: 800px;
+  margin: 40px auto 60px;
+}
+
+img[id=photo] {
+  opacity: 100;
+  float: right;
+  width: 140px;
+  height: 150px;
+  
+
+}
+
+img:hover{
+  opacity: 0;
+  float: right;
+  width: 165px;
+  height: 181.5px;
+  transition: opacity  3s ease-in-out;
+
+}
+
+.name_contact hr { 
+    position: relative;
+  	top: 91px;
+  	left: 55px;
+    display: inline;
+    height: 50px;
+    width: 100;
+    color: #8C001A;
+    background-color: #8C001A;  	
+}
+
+h3 {
+  border-bottom: 1px solid #999;
+}
+
+h4{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+h5{
+  font-size: 16px;
+}
+h1{
+  font-family: 'ArchivoNarrow-Regular' Times;
+  font-size: 48px;
+}
+
+footer p {
+  text-align: center;
+}
+footer span {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+
+ul#social{
+  content: "social media icons";
+  margin: 0px 0 0 0;
+  text-align: center; 
+  display: block;
+  float: left;
+  padding: 0px 0px 0px 0px;
+  font-size: 10px;
+  z-index: -99999;
+}
+ul#social li {
+  margin: 0;
+  padding: 0; 
+  list-style: none;
+  background: url(socialsprits.png) no-repeat;
+}
+#social li, #social a {
+  width: 40px;
+  height: 40px;
+  display: block;
+  float: left;
+}
+ul#social li.first {background-position: 0 -40px;}
+ul#social li.second {background-position: -48px -40px;}
+ul#social li.third {background-position: -96px -40px;}
+ul#social li.fourth {background-position: -143px -40px;}
+ul#social li.fifth {background-position: -190px -40px;}
+
+ul#social li:hover{opacity:0.6;}
+
+
+
+
+
